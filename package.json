@@ -1,0 +1,16 @@
+{
+  "name": "myvue",
+  "version": "1.0.0",
+  "description": "vue+webpack+typescript 脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "webpack",
+    "typescript"
+  ],
+  "author": "liupei",
+  "license": "ISC"
+}
