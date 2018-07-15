@@ -3,7 +3,7 @@
 
 
 ## 简介
-> 自配 vue+webpack+typescript 脚手架
+> 自配 vue+webpack+typescript 脚手架，==放心的写你的业务逻辑代码,我帮你实现配置==
 
 > [更新历史](https://github.com/6peiweb/myvue-cli/blob/master/CHANGELOG.md)
 
