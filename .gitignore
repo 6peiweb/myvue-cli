@@ -1,0 +1,7 @@
+## .gitignore for myvue-cli
+
+# dependencies
+/node_modules
+
+# the packaged directory
+/dist

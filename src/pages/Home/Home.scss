@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "STKaiti","KaiTi","Weibei SC","Xingkai SC","Hanzipen SC";
+}
+
+$coffee: #7b5353;
+$background: #f3f3f3;
+
+@mixin position($top, $right, $bottom, $left) {
+  position: absolute;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+from {background:red;}
+to {background:yellow;}
+}
+
+#home {
+  background: $background;
+  text-align: center;
+  @include position(100px, 100px, 100px, 100px);
+
+  .title {
+    font-size: 50px;
+    color: $coffee;
+    margin: 50px 0;
+  }
+
+  .github {
+    margin: 100px auto;
+    font-size: 20px;
+
+    img {
+      transition: transform 1.5s;
+      &:hover {
+        transform: rotate(360deg);
+      }
+    }
+  }
+}

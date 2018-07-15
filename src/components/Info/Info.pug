@@ -1,0 +1,9 @@
+mixin star(size)
+  img(src='star.svg' width=size height=size)
+
+.info
+  span There are something you need to learn
+  ul
+    li.k(v-for='(value, key) in kList')
+      +star(20)
+      a(:href='value') {{key}}
