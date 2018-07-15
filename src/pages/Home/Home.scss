@@ -15,12 +15,6 @@ $background: #f3f3f3;
   left: $left;
 }
 
-@-moz-keyframes myfirst /* Firefox */
-{
-from {background:red;}
-to {background:yellow;}
-}
-
 #home {
   background: $background;
   text-align: center;
