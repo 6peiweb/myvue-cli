@@ -45,16 +45,12 @@ tsx-->|ts-loader|js
 
 - npm start
 
-```
-通过webpack-dev-middleware与webpack-hot-middleware将前端代码当做静态文件托管在部署后端的端口上，同时实现热更新。后端代码通过supervisor监听代码更新，以及webpack打包文件变化。从而实现前后端分离的应用能部署在同一个端口上。
-```
+> 通过webpack-dev-middleware与webpack-hot-middleware将前端应用当做静态文件托管在部署后端的端口上，同时实现热更新。后端代码通过supervisor监听代码更新，以及webpack打包文件变化。从而实现前后端分离的应用能部署在同一个端口上。
+
 - npm run dev
 
-```
-利用webpack-dev-server开启端口服务器，用于前端开发运行时
-```
+> 利用webpack-dev-server开启端口服务器，用于前端开发运行时
+
 - npm run build
 
-```
-线下打包前端代码
-```
+> 线下打包前端应用
